@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Typer with keyboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project consists of a typing test application built with React. The application allows users to practice and improve their typing speed and accuracy. It provides a random sentence for the user to type, calculates typing speed in words per minute (WPM), and displays accuracy statistics.
 
-## Available Scripts
+## Deployment
 
-In the project directory, you can run:
+**https://typingtrainerbynikhil.web.app/**
 
-### `npm start`
+## Code Explanation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Test.js:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This file contains the main logic and components for the typing test. It manages the state of the input, calculates typing speed and accuracy, generates random sentences, and handles user input and submission.
 
-### `npm test`
+### keyboard.js:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This file contains a keyboard component that simulates a physical keyboard. It captures key presses and passes the pressed key to the parent component.
 
-### `npm run build`
+### TextBox.js:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This file contains the main component that combines the typing test and the keyboard components. It handles the state of the pressed key and renders the typing test and keyboard components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running the Project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Run Locally
 
-### `npm run eject`
+Clone the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  git clone https://github.com/nikhil-banga/typer-with-keyboard
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to the project directory
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  cd typer-with-keyboard
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+  npm start
+```
