@@ -144,7 +144,7 @@ export default function Keyboard({ onKeyPress }) {
           <div key={rowIndex}>
             {row.map((key, colIndex) => (
               <button
-                className={`bg-black text-white px-5 py-3 m-2 ${
+                className={`bg-black text-white py-3 px-5 m-2 ${
                   pressedKey === key && "bg-green-500"
                 }`}
                 key={colIndex}
