@@ -19,8 +19,8 @@ export default function TextBox() {
     <div className="text-center p-4 bg-gray-700 ">
       <Test className="" />
 
-      {/* <p className="text-white">Pressed Key: {pressedKey}</p> */}
-      <div className="border-2  border-double   rounded ">
+      <p className="text-white">Pressed Key: {pressedKey}</p>
+      <div className=" ">
         <Keyboard onKeyPress={handleKeyPress} className="" />
       </div>
     </div>

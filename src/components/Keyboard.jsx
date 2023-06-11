@@ -131,20 +131,20 @@ export default function Keyboard({ onKeyPress }) {
       "Ctrl",
       "Win",
       "Alt",
-      "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Space\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0",
+      "\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0Space\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0",
       "Alt",
       "Ctrl",
     ],
   ];
 
   return (
-    <>
+    <div className="w-3/5 mx-auto border rounded-md p-4">
       <div className="text-lg text-black bg-gray-700 text-center" tabIndex={0}>
         {keys.map((row, rowIndex) => (
           <div key={rowIndex}>
             {row.map((key, colIndex) => (
               <button
-                className={`bg-black text-white py-3 px-5 m-2 ${
+                className={`bg-black text-white py-2 px-3 mx-1 my-1 ${
                   pressedKey === key && "bg-green-500"
                 }`}
                 key={colIndex}
@@ -155,6 +155,6 @@ export default function Keyboard({ onKeyPress }) {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
