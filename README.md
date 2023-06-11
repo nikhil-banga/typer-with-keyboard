@@ -22,9 +22,9 @@ This file contains the main component that combines the typing test and the keyb
 
 ## Screenshots
 
-![](https://github.com/nikhil-banga/typer-with-keyboard/blob/master/ss/1.png?raw=true)
+![](https://raw.githubusercontent.com/nikhil-banga/typer-with-keyboard/master/ss/a.png)
 
-![](https://github.com/nikhil-banga/typer-with-keyboard/blob/master/ss/2.png?raw=true)
+![](https://raw.githubusercontent.com/nikhil-banga/typer-with-keyboard/master/ss/b.png)
 
 ## Running the Project
 
