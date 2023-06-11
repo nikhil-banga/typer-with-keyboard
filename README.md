@@ -20,6 +20,12 @@ This file contains a keyboard component that simulates a physical keyboard. It c
 
 This file contains the main component that combines the typing test and the keyboard components. It handles the state of the pressed key and renders the typing test and keyboard components.
 
+## Screenshots
+
+![](https://github.com/nikhil-banga/typer-with-keyboard/blob/master/ss/1.png?raw=true)
+
+![](https://github.com/nikhil-banga/typer-with-keyboard/blob/master/ss/2.png?raw=true)
+
 ## Running the Project
 
 ### Run Locally
